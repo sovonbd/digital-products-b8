@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container{
+    background-color: #424141;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo{
+    width: 120px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 20px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./images/background.png'),linear-gradient(45deg, rgb(5,5,5), #2e2e2e);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.title{
+    font-size: 54px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 13px 20px;
+    background-color: #FF5E3A;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.photo{
+    width: 360px;
+}
+
+.about-us{
+    text-align: center;
+    margin: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: row-reverse;
+    padding: 25px;
+}
+.img{
+    width: 360px;
+}
+
+.service-container{
+    background-image: url('./images/background.png'),linear-gradient(45deg, rgb(5,5,5), #2e2e2e);
+    color: white;
+    padding: 30px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.box{
+    background-color: black;
+    box-shadow: 1px 1px 100px rgba(255, 255, 255, 0.527);
+    width: 220px;
+    height: 280px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.box-img{
+    width: 100px;
+}
+.box-btn{
+    margin-top: 20px;
+    padding: 13px 20px;
+    background-color: #1a1919;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 70vh;
+    width: 100%;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0px 10px; */
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    
+}
+.footer-img{
+    width: 180px;
+}
+
+.useful-links{
+    list-style: none;
+    font-size: 18px;
+}
+.footer-list{
+    margin-bottom: 40px;
+}
+.hr{
+    /* margin: 0px 200px; */
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
